@@ -17,10 +17,9 @@ export default class AddContact extends Component {
     }
     render() {
         return (
-            <div>
                 <div className="ui main">
-                    <h2>Add contact</h2>
                     <form className="ui form" onSubmit={this.add}>
+                        <h3><br/><br/>Add Contact</h3>
                         <div className="field">
                             <label>Name</label>
                             <input 
@@ -38,7 +37,6 @@ export default class AddContact extends Component {
                         <button className="ui button blue">Add</button>
                     </form>
                 </div>
-            </div>
         )
     }
 }
